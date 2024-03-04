@@ -18,4 +18,4 @@ la_agregar Vacia clave valor = Nodo clave valor Vacia
 la_agregar (Nodo a b xs) clave valor | (a==clave) = (Nodo a valor xs)
                                      | otherwise = Nodo a b (la_agregar xs clave valor)
 ```
-Based on the associated list concept
+Based on the associated list concept.
