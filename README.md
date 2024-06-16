@@ -20,7 +20,7 @@ la_agregar (Nodo a b xs) clave valor | (a==clave) = (Nodo a valor xs)
 ```
 Based on the associated list concept.
 
-To clone this repository:
+### Clone this repository:
 ```
 git clone https://github.com/manug859/ADS1-Project-2-Haskell
 ```
