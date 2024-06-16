@@ -19,3 +19,8 @@ la_agregar (Nodo a b xs) clave valor | (a==clave) = (Nodo a valor xs)
                                      | otherwise = Nodo a b (la_agregar xs clave valor)
 ```
 Based on the associated list concept.
+
+To clone this repository:
+```
+git clone https://github.com/manug859/ADS1-Project-2-Haskell
+```
